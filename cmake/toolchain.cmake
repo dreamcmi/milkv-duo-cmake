@@ -25,7 +25,7 @@ if(CONFIG_CORE_C906B)
         -D_FILE_OFFSET_BITS=64
     )
     include_directories(
-        $ENV{MILKV_DUO_CMAKE_C906B_ROOT}/sdk/rootfs/usr/inlcude
+        $ENV{MILKV_DUO_CMAKE_C906B_ROOT}/sdk/rootfs/usr/include
     )
     link_directories(
         $ENV{MILKV_DUO_CMAKE_C906B_ROOT}/sdk/rootfs/lib 
@@ -74,7 +74,7 @@ elseif(CONFIG_CORE_CA53)
         -mcpu=cortex-a53
     )
     include_directories(
-        $ENV{MILKV_DUO_CMAKE_CA53_ROOT}/sdk/rootfs/usr/inlcude
+        $ENV{MILKV_DUO_CMAKE_CA53_ROOT}/sdk/rootfs/usr/include
     )
     link_directories(
         $ENV{MILKV_DUO_CMAKE_CA53_ROOT}/sdk/rootfs/lib 
